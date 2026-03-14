@@ -19,3 +19,6 @@ else
     Console.WriteLine();
     Console.WriteLine("Błąd: musisz podać poprawną liczbę całkowitą.");
 }
+
+int[] values={number,number+1,number+2};
+Console.WriteLine($"Minumum z tablicy: {StatisticsHelper.CalculateMin(values)}");
