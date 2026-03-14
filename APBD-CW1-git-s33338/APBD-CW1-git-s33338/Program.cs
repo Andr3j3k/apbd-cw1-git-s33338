@@ -9,7 +9,7 @@ String input = Console.ReadLine();
 if (int.TryParse(input, out int number))
 {
     Console.WriteLine();
-    Console.WriteLine("Wyniki obliczeń:");
+    Console.WriteLine("=== Wyniki z gałęzi feature-conflict ===");
     Console.WriteLine($"Liczba: {number}");
     Console.WriteLine($"Kwadrat: {StatisticsHelper.Square(number)}");
     Console.WriteLine($"Sześcian: {StatisticsHelper.Cube(number)}");
